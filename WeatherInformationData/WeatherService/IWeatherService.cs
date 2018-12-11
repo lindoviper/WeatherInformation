@@ -13,5 +13,8 @@ namespace WeatherService
         [OperationContract]
         WeatherInfo GetWeatherInfo(string city);
 
+        [OperationContract]
+        void InsertWeatherInfo(WeatherInfo weather);
+
     }
 }
