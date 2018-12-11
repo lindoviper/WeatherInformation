@@ -20,7 +20,9 @@ namespace WeatherService
         {
             var dbContext = new WeatherInfoDbContext();
             var weatherInfo = dbContext.WeatherInfo.Where(x => x.City == value).FirstOrDefault();
-            return new WeatherInfo() { City = value, Temperature = weatherInfo.Temperature, Forecast = weatherInfo.Forecast };
+
+            return weatherInfo !=null? new WeatherInfo() { City = weatherInfo.City, Temperature = weatherInfo.Temperature, Forecast = weatherInfo.Forecast }
+                                     :weatherInfo;
         }
 
         public void InsertWeatherInfo(WeatherInfo weather)
