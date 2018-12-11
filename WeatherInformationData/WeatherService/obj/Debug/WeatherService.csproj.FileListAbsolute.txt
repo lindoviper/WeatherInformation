@@ -1,0 +1,6 @@
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\obj\Debug\WeatherService.csproj.CoreCompileInputs.cache
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\bin\Debug\WeatherService.dll.config
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\bin\Debug\WeatherService.dll
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\bin\Debug\WeatherService.pdb
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\obj\Debug\WeatherService.dll
+C:\Users\Lindo Mbuthuma\source\repos\WeatherInformationData\WeatherService\obj\Debug\WeatherService.pdb
