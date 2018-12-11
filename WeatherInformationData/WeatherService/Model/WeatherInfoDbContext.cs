@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using System.Configuration;
 
 namespace WeatherService.Model
 {
@@ -11,7 +12,7 @@ namespace WeatherService.Model
     {
         public DbSet<WeatherInfo> WeatherInfo { get; set; }
 
-        public WeatherInfoDbContext() : base(@"Server =lindo-mbuthuma\SQLEXPRESS;Initial catalog=Weather;Trusted_Connection=True;")
+        public WeatherInfoDbContext() : base(ConfigurationManager.AppSettings["connectionString"])
         {
 
         }
