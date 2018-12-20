@@ -19,6 +19,15 @@ namespace WeatherService
         public int Temperature { get; set; }
 
         [DataMember]
+        public int Humidity { get; set; }
+
+        [DataMember]
+        public int WindSpeed { get; set; }
+
+        [DataMember]
+        public int WindDegree { get; set; }
+
+        [DataMember]
         public string Forecast { get; set; }
     }
 }
